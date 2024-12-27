@@ -8,6 +8,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -23,27 +24,44 @@ section#login{
     position: absolute;
     background-color: rgb(255, 255, 255);
     padding: 10px;
-    width: 234px;
-    height: 492px;
+    width: 250px;
+    height: 515px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
-    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.438);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 #login h1{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 20px;
     text-align: center;
 }
-div#imagem img{
-    width: 254px;
+div#imagem{
+    background: white url(../imagens/pexels-bri-schneiter-28802-346529.jpg) no-repeat bottom center;
+    background-size: cover;
+    width: 250px;
     height: 200px;
     border-radius: 20px 20px 0 0;
     margin: -10px;
+    margin-top: -11px;
 }
 p{
     margin-top: -10px;
     font-size: 0.8em;
     text-align: justify;
 }
+a{
+    text-align: center;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #49a09d;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid #49a09d;
+
+   }
