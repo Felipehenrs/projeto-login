@@ -24,8 +24,8 @@ section#login{
     position: absolute;
     background-color: rgb(255, 255, 255);
     padding: 10px;
-    width: 250px;
-    height: 515px;
+    width: 80vw;
+    height: 90vh;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -42,17 +42,18 @@ section#login{
 div#imagem{
     background: white url(../imagens/pexels-bri-schneiter-28802-346529.jpg) no-repeat bottom center;
     background-size: cover;
-    width: 250px;
+    width: calc(100% + 20px);
     height: 200px;
     border-radius: 20px 20px 0 0;
     margin: -10px;
     margin-top: -11px;
+    transition: width 0.01s, height 0.01s;
 }
 p{
     margin-top: -10px;
     font-size: 0.8em;
     text-align: justify;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 a{
     display: block;
@@ -67,8 +68,12 @@ a{
 
    }
    .form{
-    width: 100%;
+    width: 97%;
     height: 40px;
+    margin: auto;
+    margin-top: 5px;
+
+    
    }
    #iemail{
     height: 40px;
@@ -96,14 +101,18 @@ a{
     color: white;
     border-radius: 5px;
     cursor: pointer;
+    margin-left: 6.3px;
+    margin-top: -.5px;
 
    }
    .formcor{
     background-color: #5f2c82;
     padding: 1px;
     border-radius: 10px;
+    margin: auto;
     margin-bottom: 5px;
     height: 45px;
+    width: 97%;
     
    }
    #icon{
