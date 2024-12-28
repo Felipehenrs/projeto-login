@@ -42,16 +42,16 @@ section#login{
 div#imagem{
     background: white url(../imagens/pexels-bri-schneiter-28802-346529.jpg) no-repeat bottom center;
     background-size: cover;
-    width: calc(100% + 20px);
+    width: calc(100% + 22px);
     height: 200px;
     border-radius: 20px 20px 0 0;
-    margin: -10px;
+    margin: -11px;
     margin-top: -11px;
     transition: width 0.01s, height 0.01s;
 }
 p{
     margin-top: -10px;
-    font-size: 0.8em;
+    font-size: 1em;
     text-align: justify;
     margin-bottom: 10px;
 }
